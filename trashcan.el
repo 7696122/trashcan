@@ -19,6 +19,7 @@
 
 (defun open-trash ()
   "Dired in Trash Can."
+  (interactive)
   (dired trash-directory)
   (rename-buffer "*trash-can*"))
 
